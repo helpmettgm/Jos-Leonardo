@@ -1,0 +1,2 @@
+n = input('Digite algo:')
+print(f'E alfabetico ou numerico?{n.isalnum()}\n'f"Todos os caracteres sao visiveis?{n.isprintable()}\n"f'Todos os digitos sao apenas decimais?{n.isdecimal()}\n'f'Todos os caracters estao no padrao ASCII(0-127)?{n.isascii()}\n'f'A string pode ser usada como nome de variavel?{n.isidentifier()}\n'f'A string tem apenas espaço?{n.isspace()}\n'f'Todas as primeiras letras sao maiusculas?{n.istitle()}\n'f'Todos os caracteres sao maiusculos?{n.isupper()}\n'f'Todos os caracteres sao minusculos?{n.islower()}\n')
